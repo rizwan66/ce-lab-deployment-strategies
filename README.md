@@ -31,3 +31,13 @@ Tracks active environment, version, deployer, timestamp, and full history.
 - The inactive environment is always ready for the next deploy
 - Rollback is instant — just switch the pointer
 - Deployment history provides an audit trail
+
+## Lab Results
+
+| Step | Status |
+|------|--------|
+| Terraform apply (8 resources) | Passed |
+| Blue site live (v1.0.0) | Passed |
+| Green site live (v2.0.0) | Passed |
+| Deploy workflow (blue → green) | Passed |
+| Rollback workflow (green → blue) | Passed |
